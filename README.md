@@ -7,7 +7,7 @@ Este proyecto fue desarrollado con [Create React App](https://github.com/faceboo
 1. Descargar repositorio en la carpeta meli-challenge-frontend o de preferencia.
 2. Abrir la terminal de comandos preferida y posicionarse en la raíz del proyecto.
 3. Ejecutar el comando `npm install` para instalar dependencias.
-4. Agregar el archivo `.env` en la raíz del proyecto, el cual debe tener la variable de entorno `REACT_APP_API` la cual se utiliza para conectar la aplicación a la fuente de datos. De todos modos, se ofrece un archivo `.env.example` con las configuraciones disponibles a modo de ejemplo.
+4. Agregar el archivo `.env` en la raíz del proyecto, el cual debe tener la variable de entorno `REACT_APP_API` que se utiliza para conectar la aplicación a la fuente de datos. Esta variable debe contener la URL hacia la API o fuente de datos donde se ejecuta el proyecto [`meli-challenge-backend`](https://github.com/juanpinanavas/meli-challenge-backend). De todos modos, se ofrece un archivo `.env.example` con las configuraciones disponibles y sus posibles valores a modo de ejemplo.
 
 ## Arranque
 

@@ -1,0 +1,9 @@
+@import '../variables.scss';
+
+.items-list {
+  background-color: $whiteColor;
+  max-width: $maxPageWidth;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}

@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+.searcher {
+  width: 100%;
+  display: flex;
+}
+
+.searcher__input {
+  padding: 10px;
+  font-size: 18px;
+  float: left;
+  width: 80%;
+  border: none;
+  color: $tertiaryColor;
+  outline: none;
+  flex-grow: 1;
+}
+
+.searcher__button {
+  width: 41px;
+  padding: 10px;
+  background: $quaternaryColor;
+  color: $secondaryColor;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-image: url('../../assets/img/ic_search.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}

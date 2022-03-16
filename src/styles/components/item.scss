@@ -1,0 +1,61 @@
+@import '../variables.scss';
+
+.item {
+  display: flex;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.item-picture {
+  width: $itemPictureSize;
+  height: $itemPictureSize;
+  margin-right: 16px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+  }
+}
+
+.item-info {
+  flex-grow: 1;
+  margin-right: 16px;
+
+  .item-info__price {
+    display: flex;
+    font-size: 24px;
+    margin: 24px 0 32px 0;
+
+    .item-info__price-amount {
+      margin-right: 7px;
+    }
+    
+  }
+
+  .item-info__title {
+    font-size: 18px;
+    font-weight: inherit;
+  }
+}
+
+.item-address {
+  width: 30%;
+  margin-top: 32px;
+
+  .item-address__state {
+    font-size: 12px;
+  }
+}
+
+.separator {
+  border: 1px solid $quaternaryColor;
+  width: calc(100% - 64px);
+
+  &:last-of-type {
+    display: none;
+  }
+}

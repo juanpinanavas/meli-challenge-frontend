@@ -1,0 +1,35 @@
+@import '../variables.scss';
+
+.breadcrumb {
+  max-width: $maxPageWidth;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: 16px;
+  list-style: none;
+  color: $tertiaryColor;
+  box-sizing: border-box;
+}
+
+.breadcrumb li+li:before {
+  content: "\003E";
+  padding: 8px;
+}
+
+.breadcrumb__item {
+
+  a {
+    color: $tertiaryColor;
+    text-decoration: none;
+
+    &:hover {
+      color: $secondaryColor;
+    }
+  }
+
+  &:last-of-type a:hover {
+    color: $tertiaryColor;
+    text-decoration: none;
+  }
+}
+

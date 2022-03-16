@@ -13,7 +13,8 @@ Este proyecto fue desarrollado con [Create React App](https://github.com/faceboo
 
 Al terminar de instalarse las dependencias del paso Instalación:
 1. Ejecutar el comando `npm start` para ejecutar el proyecto
-2. Abrir el navegador en 
+2. Abrir el navegador en la dirección que la consola de comandos indique
+3. Si se desea instalar en modo productivo, se debe ejecutar el comando `npm run build`
 
 ## Dependencias
 
